@@ -5,6 +5,6 @@ const app = express();
 
 app.use("./api/users", userRouter);
 
-app.listen(8001, () => {
-    console.log("Servidor rodando na porta 8001")
+app.listen(58615, ()=> {
+    console.log("Servidor rodando na porta 58592")
 })
